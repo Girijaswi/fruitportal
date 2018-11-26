@@ -188,59 +188,8 @@ if(!isset($_SESSION['email'])){
     </div>
   </div>
 </nav>
-
-<div class="modal fade" id="myModal" role="dialog">
-    <div class="modal-dialog">
-    
-      <!-- Modal content-->
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
-          <h4 class="modal-title">Are you a seller! or a buyer!</h4>
-        </div>
-        <div class="modal-body">
-            <ul class="list-group">
-                <li class="list-group-item"><a href="../seller_reg.html">Seller</a></li>
-                <li class="list-group-item"><a href="../buyer_reg.html">Buyer</a></li>                
-            </ul>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        </div>
-      </div>
-      
-    </div>
-  </div>
-
-
-  <div class="modal fade" id="myModal1" role="dialog">
-    <div class="modal-dialog">
-    
-      <!-- Modal content-->
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
-          <h4 class="modal-title">Are you a seller! or a buyer!</h4>
-        </div>
-        <div class="modal-body">
-            <ul class="list-group">
-                <li class="list-group-item"><a href="seller_login.php">Seller</a></li>
-                <li class="list-group-item"><a href="buyer_login.php">Buyer</a></li>                
-            </ul>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        </div>
-      </div>
-      
-    </div>
-  </div>
-		<h3 id="seller_email"><?php echo $_SESSION['email']; ?></h3>
-		<a href="home.php?logout='1'">Logout</a>
-		<!-- <ul class="nav navbar-nav navbar-right"><br>
-			<li class="nav-item"><a class='fas fa-wallet'>Wallet</a></li>
-			<li class="nav-item"><a href="home.php?logout='1'">Logout</a></li>
-		</ul> -->
+<h3 id="seller_email"><?php echo $_SESSION['email']; ?></h3>
+<a href="home.php?logout='1'">Logout</a>
 
 <!--start Modal add information-->
   <div class="modal fade" id="myModal2" role="dialog">
