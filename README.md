@@ -8,6 +8,9 @@ Website
 ## Database
 * To view the database, In Mysql click on 'start' button  and then 'admin'.
 * import freshfruit.sql and fruitsdb.sql files.
+## Code
+* Download the folder.
+* Place that folder in C:/xampp/htdocs
 ## Procedure
 * In 'inmar86' folder open 'php' folder in that open 'home.php' this is for homepage display.
 * In 'inmar86' folder 'seller_reg.html' and 'buyer_reg.html' are the signup forms.
