@@ -4,7 +4,7 @@ Website
 * To begin this website, download and install xampp server https://www.apachefriends.org/download.html
 * Install Xampp server by above url.
 * After installation, open xampp control panel and start the Apache and Mysql server.
-* Download Sublime text Editor.
+* I have used Sublime text 3 Editor.
 ## Database
 * To view the database, In Mysql click on 'start' button  and then 'admin'.
 * import freshfruit.sql and fruitsdb.sql files.
